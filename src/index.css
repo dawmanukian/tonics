@@ -1,13 +1,38 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "SF";
+  font-style: normal;
+  font-weight: 500l;
+  src: url("./fonts/sf-ui-display-medium-58646be638f96.woff") format("woff");
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "SF";
+  font-style: normal;
+  font-weight: semibold;
+  src: url("./fonts/sf-ui-display-semibold-58646eddcae92.woff") format("woff");
+}
+
+@font-face {
+  font-family: "SF";
+  font-style: normal;
+  font-weight: bold;
+  src: url("./fonts/sf-ui-display-bold-58646a511e3d9.woff") format("woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "SF";
+}
+#root {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+.App {
+  height: 100%;
+  max-width: 650px;
+  width: 100%;
+  background: #06131a;
 }

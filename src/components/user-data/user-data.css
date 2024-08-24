@@ -1,0 +1,67 @@
+.balance {
+  width: 100%;
+  height: 119.2px;
+  background: #151d21;
+  border: 1px solid #212c31;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  position: relative;
+}
+.user-datas {
+  margin-top: 20px;
+  width: 100%;
+}
+.datas {
+  display: flex;
+  margin-top: 6px;
+  gap: 6px;
+}
+.datas .balance {
+  height: 74.46px;
+  overflow: hidden;
+  gap: 10px;
+}
+.datas .balance img {
+  width: 100%;
+}
+.balance_number {
+  font-weight: 700;
+  line-height: 62.87px;
+  color: #fff;
+  font-size: 52.68px;
+  letter-spacing: -2%;
+}
+.leader {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18.2px;
+  color: #eff9ff99;
+}
+.glow_1 {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  left: 0;
+}
+.b_tx {
+  z-index: 999;
+  position: absolute;
+  text-align: center;
+}
+.b_tx p {
+  color: #eff9ff;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18.2px;
+  opacity: 60%;
+}
+.b_tx span {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23.4px;
+  color: #EFF9FF;
+}
