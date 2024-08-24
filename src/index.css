@@ -33,6 +33,7 @@
 .App {
   height: 100%;
   max-width: 650px;
+  min-height: 720px;
   width: 100%;
   background: #06131a;
 }
