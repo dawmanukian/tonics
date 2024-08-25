@@ -1,0 +1,79 @@
+.tasks-page {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+.b1 {
+  position: absolute;
+  right: 0;
+  top: 80px;
+}
+.b2 {
+  position: absolute;
+  top: 44px;
+  left: 0px;
+}
+.b3 {
+  position: absolute;
+  top: -22px;
+  right: 124px;
+}
+.t_texts {
+  width: 245px;
+  margin-top: 50px;
+  text-align: center;
+  z-index: 999;
+}
+.t_texts p {
+  font-size: 31.02px;
+  font-weight: 700;
+  line-height: 31.02px;
+  letter-spacing: -2%;
+  color: #eff9ff;
+  margin-bottom: 20px;
+}
+.t_texts > span {
+  font-weight: 600;
+  color: #eff9ff;
+  opacity: 60%;
+  line-height: 18.2px;
+  font-size: 14px;
+  min-width: 200px;
+  max-width: 200px;
+}
+.tasks_section {
+  margin-top: 30px;
+}
+.tasks_header {
+  font-weight: 600;
+  line-height: 23.4px;
+  font-size: 18px;
+  color: #eff9ff;
+}
+.tasks_num {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff26;
+  font-weight: 600;
+  line-height: 18.2px;
+  color: #eff9ff;
+  font-size: 14px;
+  opacity: 60%;
+  width: 29px;
+  border-radius: 36.07px;
+}
+.tasks_section {
+  width: 100%;
+}
+.all_tasks {
+  margin-top: 16.4px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

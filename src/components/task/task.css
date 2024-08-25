@@ -1,0 +1,32 @@
+.task_ {
+  height: 69.18px;
+  width: 100%;
+  background: #151d21;
+  border: 1px solid #212c31;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.task_ button {
+  height: 34px;
+  width: 63px;
+  border: none;
+  border-radius: 36.07px;
+  color: #fff;
+  background: #42bdff;
+}
+.task_he {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18.2px;
+  color: #eff9ff;
+  margin-bottom: 8px;
+}
+.task_ p {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}

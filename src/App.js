@@ -3,6 +3,8 @@ import Loading from "./pages/loading/Loading";
 import Navbar from "./components/navbar/Navbar";
 import Home from "./pages/home/Home";
 import { useState } from "react";
+import Friends from "./pages/friends/Friends";
+import Tasks from "./pages/tasks/Tasks";
 
 function App() {
   const [showLoading, setShowLoading] = useState(true);
@@ -17,6 +19,8 @@ function App() {
         <Router>
           <Routes>
             <Route path="/*" element={<Home />} />
+            <Route path="/friends" element={<Friends />} />
+            <Route path="/tasks" element={<Tasks />} />
           </Routes>
           <Navbar />
         </Router>
