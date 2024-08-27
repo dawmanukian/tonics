@@ -13,7 +13,6 @@ const Navbar = () => {
         <Link to="/" style={location.pathname === '/' ? {opacity: '100%', borderBottom: '2px solid #42BDFF'} : null}>Home</Link>
         <Link to="/friends" style={location.pathname === '/friends' ? {opacity: '100%', borderBottom: '2px solid #42BDFF'} : null}>Friends</Link>
         <Link to="/tasks" style={location.pathname === '/tasks' ? {opacity: '100%', borderBottom: '2px solid #42BDFF'} : null}>Tasks</Link>
-        <Link to="/wallet" style={location.pathname === '/wallet' ? {opacity: '100%', borderBottom: '2px solid #42BDFF'} : null}>Wallet</Link>
       </div>
       <img src={img} alt="" />
     </div>

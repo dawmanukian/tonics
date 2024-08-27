@@ -5,6 +5,7 @@ import { ReactComponent as B1 } from "../../img/11.svg";
 import { ReactComponent as B2 } from "../../img/8.svg";
 import { ReactComponent as B3 } from "../../img/9.svg";
 import { ReactComponent as Re } from "../../img/re.svg";
+import { ReactComponent as Ton } from "../../img/TON icon.svg";
 import Task from "../../components/task/Task";
 
 const Tasks = () => {
@@ -35,14 +36,11 @@ const Tasks = () => {
         >
           <div style={{ display: "flex", gap: "7px" }}>
             <p className="tasks_header">Tasks</p>
-            <div className="tasks_num">5</div>
+            <div className="tasks_num">6</div>
           </div>
           <Re />
         </div>
         <div className="all_tasks">
-          <Task />
-          <Task />
-          <Task />
           <Task />
         </div>
       </div>

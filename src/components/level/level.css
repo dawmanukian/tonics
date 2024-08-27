@@ -19,12 +19,14 @@
   height: 5px;
   background: #eff9ff26;
   border-radius: 100px;
+  overflow-x: hidden;
 }
 .line .bl {
   height: 100%;
   border-radius: 100px;
-  width: 60%;
+  width: 0%;
   background: #42bdff;
+  transition: all ease .5s;
   margin-top: 12px;
 }
 .header_p1 {

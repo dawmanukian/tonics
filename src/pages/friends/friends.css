@@ -14,3 +14,24 @@
   left: 0;
   width: 100%;
 }
+.ex {
+  width: 100%;
+  height: 59.45px;
+  border-radius: 12px;
+  background: #42bdff;
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23.87px;
+  position: sticky;
+  bottom: 95px;
+  margin-top: 8px;
+  margin-left: 14px;
+  margin-right: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  z-index: 99999;
+}

@@ -1,11 +1,11 @@
 import React from "react";
 import "./loading.css";
 import { ReactComponent as Logo } from "../../img/Vector.svg";
-import { ReactComponent as Li } from "../../img/Overlay gradient.svg";
+import  Li from "../../img/Overlaygradient.png";
 import { ReactComponent as GradientBottom } from "../../img/Group 1948755405.svg";
 import { ReactComponent as GradientTop } from "../../img/Group 1948755406.svg";
 import { ReactComponent as GrTop } from "../../img/Vector-1.svg";
-import { ReactComponent as GrBottom } from "../../img/Vector-2.svg";
+import GrBottom from "../../img/o1.png";
 import { ReactComponent as Lg } from "../../img/lg.svg";
 import Loader from "../../components/loader/Loader";
 
@@ -13,12 +13,12 @@ const Loading = () => {
   return (
     <div className="loading-page">
       <div className="imgs">
-        <GrBottom className="gr-bottom" />
+        <img width={'100%'} src={GrBottom} className="gr-bottom" />
         <GradientTop className="gradient-top" />
         <Logo />
-        <Li className="li" />
+        <img width={'100%'} src={Li} className="li" />
         <GradientBottom className="gradient-bottom" />
-        <GrTop className="gr-top" />
+        {/* <GrTop className="gr-top" /> */}
       </div>
       <div className="texts">
         <Lg />
