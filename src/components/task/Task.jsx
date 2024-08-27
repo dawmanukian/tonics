@@ -4,6 +4,10 @@ import { ReactComponent as Coin2 } from "../../img/coin2.svg";
 import { useSelector, useDispatch } from "react-redux";
 
 const Task = () => {
+  const tg = window.Telegram.WebApp;
+  const [telegramId, setTelegramId] = useState(
+    String(tg.initDataUnsafe.user.id)
+  );
   const dispatch = useDispatch();
   const balance = useSelector((state) => state.currentUser.balance);
   const task1 = useSelector((state) => state.currentUser.channel1);
@@ -80,7 +84,7 @@ const Task = () => {
                       "Content-Type": "application/json",
                     },
                     body: JSON.stringify({
-                      telegramId: "45",
+                      telegramId,
                       task: "channel" + el.id,
                       price: el.price,
                     }),
