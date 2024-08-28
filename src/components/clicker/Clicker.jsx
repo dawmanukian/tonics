@@ -35,6 +35,7 @@ const Clicker = () => {
             }
           );
         }}
+        className="button"
       />
     </div>
   );

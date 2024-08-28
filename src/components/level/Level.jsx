@@ -16,7 +16,7 @@ const Level = () => {
 
   useEffect(() => {
     const new_line = (balance / (5000 * lvl)) * 100;
-    setLine(() => new_line);
+    setLine(new_line);
     if (lvl !== 10) {
       const chl = async () => {
         const response = await fetch(`https://toniksp.xyz/api/user/add-level`, {
