@@ -2,6 +2,7 @@ import React from "react";
 import "./task.css";
 import { ReactComponent as Coin2 } from "../../img/coin2.svg";
 import { useSelector, useDispatch } from "react-redux";
+import { useState } from "react";
 
 const Task = () => {
   const tg = window.Telegram.WebApp;
