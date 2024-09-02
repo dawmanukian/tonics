@@ -7,7 +7,7 @@ import { useState } from "react";
 const Task = () => {
   const tg = window.Telegram.WebApp;
   const [telegramId, setTelegramId] = useState(
-    String(tg.initDataUnsafe.user.id)
+    "String(tg.initDataUnsafe.user.id)"
   );
   const dispatch = useDispatch();
   const balance = useSelector((state) => state.currentUser.balance);

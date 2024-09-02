@@ -17,7 +17,7 @@ const Friends = () => {
   }, []);
   const tg = window.Telegram.WebApp;
   const [telegramId, setTelegramId] = useState(
-    String(tg.initDataUnsafe.user.id)
+    "String(tg.initDataUnsafe.user.id)"
   );
 
   const shareContent = () => {

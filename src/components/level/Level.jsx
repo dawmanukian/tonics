@@ -11,7 +11,7 @@ const Level = () => {
   const [line, setLine] = useState((balance / (5000 * lvl)) * 100);
   const tg = window.Telegram.WebApp;
   const [telegramId, setTelegramId] = useState(
-    String(tg.initDataUnsafe.user.id)
+    "String(tg.initDataUnsafe.user.id)"
   );
 
   useEffect(() => {

@@ -9,7 +9,7 @@ const Clicker = () => {
   const balance = useSelector((state) => state.currentUser.balance);
   const tg = window.Telegram.WebApp;
   const [telegramId, setTelegramId] = useState(
-    String(tg.initDataUnsafe.user.id)
+    "String(tg.initDataUnsafe.user.id)"
   );
   return (
     <div className="clicker">

@@ -63,5 +63,11 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 23.4px;
-  color: #EFF9FF;
+  color: #eff9ff;
+}
+.cur {
+  font-weight: 500;
+  line-height: 18.2px;
+  font-size: 14px;
+  color: rgba(239, 249, 255, 0.6);
 }

@@ -7,3 +7,63 @@
   padding-left: 14px;
   padding-right: 14px;
 }
+.blured {
+  position: fixed;
+  z-index: 999999;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blured .bll {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  backdrop-filter: blur(4px);
+}
+.bl_data {
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 360px;
+  border: 1px solid rgba(33, 44, 49, 1);
+  background: rgba(21, 29, 33, 1);
+  border-radius: 12px;
+  padding: 22px;
+  gap: 28px;
+  text-align: center;
+  color: #fff;
+  transition: all ease;
+  animation: anim 0.7s;
+}
+.bl_data img {
+  position: absolute;
+}
+.bl_data button {
+  background: rgba(66, 189, 255, 1);
+  border: none;
+  border-radius: 8px;
+  height: 50px;
+  font-weight: 500;
+  line-height: 19.09px;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: -2%;
+  width: 100%;
+}
+.bl_data p {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 47.73px;
+}
+@keyframes anim {
+  from {
+    transform: scale(0.8);
+  }
+  to {
+    transform: scale(1);
+  }
+}
